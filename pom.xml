@@ -167,6 +167,7 @@
     </dependencies>
      <build>
         <plugins>
+	    <!--
 	    <plugin>
 		<!-- 加上 compiler plugin -->
                 <groupId>org.apache.maven.plugins</groupId>
@@ -177,6 +178,7 @@
                     <target>11</target>
                 </configuration>
             </plugin>
+	    -->
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
